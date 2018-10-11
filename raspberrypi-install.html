@@ -514,7 +514,7 @@ h1. Desktop版Raspbian（ラズビアン）のインストール
 
 h2(first). 初めに
 
-本資料は、SDカードにDesktop版Raspbian(OSイメージ名)をインストールする方法を説明しています。 
+本資料は、SDカードにDesktop版Raspbian(OSイメージ名)をインストールする方法を説明しています。
 
 Desktop版Raspbianをインストールするには、 *{color:red}8GB* 以上の容量を持つSDカードが必要です。
 
@@ -528,7 +528,7 @@ h2. Raspbianの入手
 
 上リンクをクリックしたらダウンロードが始まります。
 
-ダウンロード完了まで少しかかるので，コーヒーを飲んで待ちましょう：）
+ダウンロード完了まで少しかかります。
 
 h2. RaspbianをSDカードに書き込む
 
@@ -543,11 +543,16 @@ h2. RaspbianをSDカードに書き込む
 * 'Flash!'をクリックしたら書き込みが開始されます。
 * 書き込み中にいくつかウィンドウが出たら閉じてください。
 
-h2. 完了！！
+h2. ラズビアン日本語設定
 
-お疲れ様です！！
+wifiに接続後...
+ターミナルを開いて次のコマンドを入力
 
-あとはRaspbianをこころゆくまでお楽しみください；）
+* apt install fonts-ipafont fonts-ipaexfont
+* apt install fcitx-mozc
+* reboot
+
+以上で日本語設定終了です。
 
 h2. 補足資料
 
@@ -583,7 +588,7 @@ hdmi_force_hotplug=1
 
 hdmi_group=2
 
-hdmi_mode=35  #1280x1024  60 Hz 
+hdmi_mode=35  #1280x1024  60 Hz
 
 disable_overscan=1
 </code></pre>
