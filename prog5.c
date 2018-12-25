@@ -1,16 +1,13 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main(){
     int a=0,b=0;
     printf("a = ");
     scanf("%d",&a);
-    printf("a = ");
+    printf("b = ");
     scanf("%d",&b);
-
-    printf("òa : %d\n",a+b);
-    printf("ç∑ : %d\n",a-b);
-    printf("êœ : %d\n",a*b);
-    printf("è§ : %d\n",a/b);
-
-
+    
+    printf("Âíå: %d\n",a+b);
+    printf("Â∑Æ: %d\n",a-b);
+    printf("Á©ç: %d\n",a*b);
+    printf("ÂïÜ: %d\n",a/b);
 }
